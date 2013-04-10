@@ -1,10 +1,6 @@
+require 'rubygems'
 require 'sinatra'
 
 get '/' do
-  'Hello world!'
+  "Hello from Sinatra on Heroku!"
 end
-
-#Get parameter
-get '/hello/:name' do
-  "Hello #{params[:name]}!"
-end	
