@@ -7,6 +7,9 @@ require 'json'
 # to the familiar database.yml in rails
 # See http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/MysqlAdapter.html
 
+#client = Mysql2::Client.new(:host => "localhost", :username => "root", :password => "root", :encoding => "utf8",
+#						 :database => "treasurehunter", :socket => "C:/xampp/mysql/mysql.sock")
+
 client = Mysql2::Client.new(:host => "localhost", :username => "root", :password => "root", :encoding => "utf8",
 						 :database => "treasurehunter", :socket => "/Applications/MAMP/tmp/mysql/mysql.sock")
 
